@@ -1,0 +1,15 @@
+"My own tests for minutes_per_km."
+
+import pytest
+
+from orders import minutes_per_km
+
+
+def test_slow_delivery():
+    assert minutes_per_km(10, 5) == 2.0
+    
+
+
+def test_negative_distance_raises():
+    with pytest.raises(ValueError):
+        minutes_per_km(60, -3)

@@ -1,0 +1,1 @@
+I will consider Linear Regression Model as the best model for this as MAE is lowest for Linear Regression, Linear regression is simpler and I would give up on a little potential accuracy compared to DescisionTee model.
